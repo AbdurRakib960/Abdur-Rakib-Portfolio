@@ -1,0 +1,6 @@
+.projects img{
+    height: 200px
+}
+.card:hover{
+    box-shadow: 8px 8px 12px solid green!important;
+}
