@@ -12,11 +12,11 @@ import Send from "@material-ui/icons/Send";
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
-    background: "#233",
+    
     height: "100vh",
   },
   heading: {
-    color: "tomato",
+    color: "#08d665",
     textAlign: "center",
     textTransform: "uppercase",
     marginBottom: "1rem",
@@ -32,8 +32,8 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tan",
+    color: "#08d665",
+    borderColor: "#08d665",
   },
   field: {
     margin: "1rem 0rem",
@@ -43,21 +43,21 @@ const useStyles = makeStyles((theme) => ({
 const InputField = withStyles({
   root: {
     "& label.Mui-focused": {
-      color: "tomato",
+      color: "#08d665",
     },
     "& label": {
-      color: "tan",
+      color: "#FFC107",
     },
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
-        borderColor: "tan",
+        borderColor: "#FFC107",
       },
       "&:hover fieldset": {
-        borderColor: "tan",
+        borderColor: "#FFC107",
       },
       "&.Mui-focused fieldset": {
         color: "#fff",
-        borderColor: "tan",
+        borderColor: "#FFC107",
       },
     },
   },
